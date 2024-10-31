@@ -1,0 +1,53 @@
+/* Admin Style */
+
+.ycpr-grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.ycpr-grid-child .ycpr-title{
+    display:inline;
+    font-size:21px;
+}
+.ycpr-grid-container .yc-pro-link{
+    text-align: right;
+    font-size: 16px;
+}
+.ycpr-other-free{
+    margin: 10px 20px 0 2px;
+    margin-top:20px;
+    padding: 15px;
+    padding-top: 0;
+    cursor:pointer;
+}
+.ycpr-other-free .ycpr-other-title{color:#747677;}
+.ycpr-other-title .show_ycp_plugins{display:none;}
+.ycpr-other-title .olbl{cursor:pointer}
+.olbl .dashicons{position: relative;top: 2px;}
+.ycpr-other-free .ycpr-plugin-sec{
+     display:block;
+     margin-bottom:15px;
+}
+.ycpr-plugin-sec .ycpr-pl-data{
+     display:flex;margin-bottom:10px;
+}
+.ycpr-pl-data .ycpr-plugin-title{
+     margin: auto 5px;font-size: 16px;
+}
+.yc-pro-link .ycp-proo{
+    font-size:16px;
+}
+.ycp-pro{
+    color: #2da22d!important;
+    font-weight: bold;
+    padding: 2px 3px;
+    border-radius: 4px;
+}
+.ycp-pro:hover{
+    color:blue!important;
+}
+
+
+
